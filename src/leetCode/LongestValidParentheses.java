@@ -4,9 +4,6 @@ public class LongestValidParentheses {
 	public static int longestValidParentheses(String s) {
 
 		boolean[] dp = new boolean[s.length()];
-
-		int open = 0;
-		int close = 0;
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) == ')') {
 				int j = i - 1;

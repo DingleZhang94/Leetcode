@@ -1,6 +1,7 @@
 package leetCode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Solution22 {
@@ -35,7 +36,7 @@ public class Solution22 {
 		// TODO Auto-generated method stub
 		Solution22 a = new Solution22();
 		List<String> bList = a.generateParenthesis(3);
-		// System.out.println(Arrays.toString(bList.toArray()));
+		System.out.println(Arrays.toString(bList.toArray()));
 	}
 
 }

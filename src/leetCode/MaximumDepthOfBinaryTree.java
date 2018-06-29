@@ -18,7 +18,6 @@ public class MaximumDepthOfBinaryTree {
 		Stack<TreeNode> stack = new Stack<>();
 		stack.push(root);
 		while (!stack.empty()) {
-			TreeNode searchNode = stack.peek();
 			depth++;
 			stack.pop();
 

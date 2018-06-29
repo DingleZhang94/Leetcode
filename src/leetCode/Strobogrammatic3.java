@@ -3,9 +3,6 @@ package leetCode;
 public class Strobogrammatic3 {
 
 	public int strobogrammaticInRange(String low, String high) {
-		int count = 0;
-		int[] single = { 1, 2, 2, 2, 2, 2, 2, 2, 3, 3 };
-		int[] normal = { 1, 2, 2, 2, 2, 2, 3, 3, 4, 5 };
 		int n = low.length();
 		int m = high.length();
 		int[] dp = new int[m];
