@@ -29,6 +29,7 @@ public class StroboPermutation {
 				map.put(c, (f + 1) / 2);
 			}
 		}
+		return null;
 	}
 
 	public static void main(String[] args) {
