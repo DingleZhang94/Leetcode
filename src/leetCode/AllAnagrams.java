@@ -56,6 +56,6 @@ public class AllAnagrams {
 	public static void main(String[] args) {
 		AllAnagrams a = new AllAnagrams();
 
-		System.out.println(a.allAnagrams("", lo));
+		System.out.println(a.allAnagrams("", ""));
 	}
 }
